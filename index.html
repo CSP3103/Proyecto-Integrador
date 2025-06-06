@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricultura Inteligente | Login</title>
+    <link rel="stylesheet" href="css/planta.css">
+</head>
+<body>
+    <div class="auth-container">
+        <h1>Bienvenido</h1>
+
+        <form id="login-form">
+            <h2>Iniciar Sesión</h2>
+            <input type="text" id="login-username" placeholder="Usuario" required>
+            <input type="password" id="login-password" placeholder="Contraseña" required>
+            <button type="submit">Entrar</button>
+            <p>¿No tienes cuenta? <a href="#" id="show-register">Regístrate</a></p>
+        </form>
+
+        <form id="register-form" class="hidden">
+            <h2>Registro</h2>
+            <input type="text" id="register-username" placeholder="Usuario" required>
+            <input type="password" id="register-password" placeholder="Contraseña" required>
+            <button type="submit">Registrarse</button>
+        </form>
+    </div>
+    <script type="module" src="js/planta_login.js"></script>
+</body>
+</html>

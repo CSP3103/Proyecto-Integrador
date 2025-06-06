@@ -1,0 +1,598 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: url('https://media.istockphoto.com/id/543212762/es/foto/tractor-en-el-campo-de-primavera-relaciones-sean.jpg?s=612x612&w=0&k=20&c=ua9ZJb046xHKUDsRW2okFfKYJyNd12RMXZ8vESdjUHc=') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+.auth-container,
+.app-container {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.auth-container h1,
+.app-container h1 {
+    color: #1e5631;
+    margin-bottom: 1.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #2c7d4a;
+    box-shadow: 0 0 5px rgba(44, 125, 74, 0.3);
+}
+
+button {
+    padding: 0.8rem;
+    background-color: #2c7d4a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #23603a;
+    transform: scale(1.02);
+}
+
+a {
+    color: #2c7d4a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.app-container header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+#logout-btn {
+    background-color: #e74c3c;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+#cultivo-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+#resultado {
+    background-color: #ffffffcc;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border-left: 5px solid #2c7d4a;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#cultivo-nombre-resultado {
+    color: #2c7d4a;
+    margin-top: 0;
+}
+
+#humedad-info, #zona-info, #recomendacion-info {
+    margin: 0.5rem 0;
+}
+
+#resultado img {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+#resultado img:hover {
+    transform: scale(1.03);
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 100vh;
+    background-color: #1e5631;
+    color: #fff;
+    padding: 2rem 1rem;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.2);
+}
+
+.sidebar h2 {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 1rem 0;
+}
+
+.sidebar a,
+.sidebar button {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    background: none;
+    border: none;
+    padding: 0.5rem 1rem;
+    text-align: left;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.sidebar a:hover,
+.sidebar button:hover {
+    background-color: #23603a;
+    border-radius: 6px;
+}
+
+
+.main-content {
+    margin-left: 240px;
+    padding: 2rem;
+    max-width: 800px;
+}
+
+
+.contenido-seccion {
+    display: none;
+}
+
+.contenido-seccion:not(.hidden) {
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: url('https://media.istockphoto.com/id/543212762/es/foto/tractor-en-el-campo-de-primavera-relaciones-sean.jpg?s=612x612&w=0&k=20&c=ua9ZJb046xHKUDsRW2okFfKYJyNd12RMXZ8vESdjUHc=') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+.auth-container,
+.app-container {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.auth-container h1,
+.app-container h1 {
+    color: #1e5631;
+    margin-bottom: 1.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #2c7d4a;
+    box-shadow: 0 0 5px rgba(44, 125, 74, 0.3);
+}
+
+button {
+    padding: 0.8rem;
+    background-color: #2c7d4a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #23603a;
+    transform: scale(1.02);
+}
+
+a {
+    color: #2c7d4a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.app-container header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+#logout-btn {
+    background-color: #e74c3c;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+#cultivo-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+#resultado {
+    background-color: #ffffffcc;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border-left: 5px solid #2c7d4a;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#cultivo-nombre-resultado {
+    color: #2c7d4a;
+    margin-top: 0;
+}
+
+#humedad-info, #zona-info, #recomendacion-info {
+    margin: 0.5rem 0;
+}
+
+#resultado img {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+#resultado img:hover {
+    transform: scale(1.03);
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 100vh;
+    background-color: #1e5631;
+    color: #fff;
+    padding: 2rem 1rem;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.2);
+}
+
+.sidebar h2 {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 1rem 0;
+}
+
+.sidebar a,
+.sidebar button {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    background: none;
+    border: none;
+    padding: 0.5rem 1rem;
+    text-align: left;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.sidebar a:hover,
+.sidebar button:hover {
+    background-color: #23603a;
+    border-radius: 6px;
+}
+
+.main-content {
+    margin-left: 240px;
+    padding: 2rem;
+    max-width: 800px;
+}
+
+.contenido-seccion {
+    display: none;
+}
+
+.contenido-seccion:not(.hidden) {
+    display: block;
+}
+
+.sugerencias-container {
+  position: absolute;
+  width: calc(100% - 30px);
+  max-height: 200px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-top: none;
+  z-index: 1000;
+  display: none;
+}
+
+.sugerencia-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.sugerencia-item:hover {
+  background-color: #f5f5f5;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+    display: block;
+}
+
+.sugerencias-container {
+  position: absolute;
+  width: calc(100% - 30px);
+  max-height: 200px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-top: none;
+  z-index: 1000;
+  display: none;
+}
+
+.sugerencia-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.sugerencia-item:hover {
+  background-color: #f5f5f5;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 15px;
+}
+#lista-cultivos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.cultivo-card {
+  background: rgba(255, 255, 255, 0.9);
+  border-left: 5px solid #2c7d4a;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.cultivo-card:hover {
+  transform: scale(1.02);
+}
+
+.cultivo-nombre {
+  margin-top: 0;
+  color: #2c7d4a;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: url('https://media.istockphoto.com/id/543212762/es/foto/tractor-en-el-campo-de-primavera-relaciones-sean.jpg?s=612x612&w=0&k=20&c=ua9ZJb046xHKUDsRW2okFfKYJyNd12RMXZ8vESdjUHc=') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+
+.hidden {
+    display: none !important;
+}
+
+
+.contenido-seccion {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 800px;
+}
+
+.contenido-seccion h3 {
+    color: #1e5631;
+    margin-bottom: 1.5rem;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input, select {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus, select:focus {
+    border-color: #2c7d4a;
+    box-shadow: 0 0 5px rgba(44, 125, 74, 0.3);
+}
+
+button {
+    padding: 0.8rem;
+    background-color: #2c7d4a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #23603a;
+    transform: scale(1.02);
+}
+
+
+.sugerencias-container {
+    position: absolute;
+    width: calc(100% - 30px);
+    max-height: 200px;
+    overflow-y: auto;
+    background: white;
+    border: 1px solid #ddd;
+    border-top: none;
+    z-index: 1000;
+    display: none;
+}
+
+.sugerencia-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sugerencia-item:hover {
+    background-color: #f5f5f5;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+#bienvenida {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#bienvenida h2 {
+    color: #1e5631;
+    margin-bottom: 1rem;
+}
+
+#bienvenida p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+
+#resumen-cultivos {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    color: #333;
+}

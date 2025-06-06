@@ -1,0 +1,502 @@
+[
+  {
+    "nombre": "Arroz",
+    "humedad_min": 62,
+    "humedad_max": 87
+  },
+  {
+    "nombre": "Maíz",
+    "humedad_min": 50,
+    "humedad_max": 83
+  },
+  {
+    "nombre": "Papa",
+    "humedad_min": 62,
+    "humedad_max": 82
+  },
+  {
+    "nombre": "Café",
+    "humedad_min": 56,
+    "humedad_max": 79
+  },
+  {
+    "nombre": "Cacao",
+    "humedad_min": 60,
+    "humedad_max": 76
+  },
+  {
+    "nombre": "Plátano",
+    "humedad_min": 67,
+    "humedad_max": 78
+  },
+  {
+    "nombre": "Yuca",
+    "humedad_min": 56,
+    "humedad_max": 86
+  },
+  {
+    "nombre": "Frijol",
+    "humedad_min": 52,
+    "humedad_max": 75
+  },
+  {
+    "nombre": "Tomate",
+    "humedad_min": 64,
+    "humedad_max": 88
+  },
+  {
+    "nombre": "Cebolla",
+    "humedad_min": 66,
+    "humedad_max": 84
+  },
+  {
+    "nombre": "Zanahoria",
+    "humedad_min": 61,
+    "humedad_max": 86
+  },
+  {
+    "nombre": "Ajo",
+    "humedad_min": 64,
+    "humedad_max": 81
+  },
+  {
+    "nombre": "Lechuga",
+    "humedad_min": 60,
+    "humedad_max": 75
+  },
+  {
+    "nombre": "Espinaca",
+    "humedad_min": 53,
+    "humedad_max": 87
+  },
+  {
+    "nombre": "Repollo",
+    "humedad_min": 67,
+    "humedad_max": 89
+  },
+  {
+    "nombre": "Pepino",
+    "humedad_min": 53,
+    "humedad_max": 82
+  },
+  {
+    "nombre": "Melón",
+    "humedad_min": 69,
+    "humedad_max": 79
+  },
+  {
+    "nombre": "Sandía",
+    "humedad_min": 67,
+    "humedad_max": 89
+  },
+  {
+    "nombre": "Banano",
+    "humedad_min": 52,
+    "humedad_max": 75
+  },
+  {
+    "nombre": "Mango",
+    "humedad_min": 57,
+    "humedad_max": 85
+  },
+  {
+    "nombre": "Piña",
+    "humedad_min": 59,
+    "humedad_max": 83
+  },
+  {
+    "nombre": "Aguacate",
+    "humedad_min": 67,
+    "humedad_max": 76
+  },
+  {
+    "nombre": "Naranja",
+    "humedad_min": 54,
+    "humedad_max": 76
+  },
+  {
+    "nombre": "Limón",
+    "humedad_min": 55,
+    "humedad_max": 76
+  },
+  {
+    "nombre": "Mandarina",
+    "humedad_min": 54,
+    "humedad_max": 83
+  },
+  {
+    "nombre": "Fresa",
+    "humedad_min": 65,
+    "humedad_max": 79
+  },
+  {
+    "nombre": "Mora",
+    "humedad_min": 59,
+    "humedad_max": 80
+  },
+  {
+    "nombre": "Uva",
+    "humedad_min": 70,
+    "humedad_max": 77
+  },
+  {
+    "nombre": "Guayaba",
+    "humedad_min": 56,
+    "humedad_max": 86
+  },
+  {
+    "nombre": "Maracuyá",
+    "humedad_min": 65,
+    "humedad_max": 77
+  },
+  {
+    "nombre": "Lulo",
+    "humedad_min": 65,
+    "humedad_max": 77
+  },
+  {
+    "nombre": "Borojó",
+    "humedad_min": 59,
+    "humedad_max": 88
+  },
+  {
+    "nombre": "Guandul",
+    "humedad_min": 69,
+    "humedad_max": 84
+  },
+  {
+    "nombre": "Ñame",
+    "humedad_min": 62,
+    "humedad_max": 77
+  },
+  {
+    "nombre": "Sorgo",
+    "humedad_min": 61,
+    "humedad_max": 87
+  },
+  {
+    "nombre": "Trigo",
+    "humedad_min": 68,
+    "humedad_max": 77
+  },
+  {
+    "nombre": "Cebada",
+    "humedad_min": 66,
+    "humedad_max": 75
+  },
+  {
+    "nombre": "Soja",
+    "humedad_min": 69,
+    "humedad_max": 88
+  },
+  {
+    "nombre": "Algodón",
+    "humedad_min": 51,
+    "humedad_max": 75
+  },
+  {
+    "nombre": "Ají",
+    "humedad_min": 69,
+    "humedad_max": 88
+  },
+  {
+    "nombre": "Pimentón",
+    "humedad_min": 50,
+    "humedad_max": 82
+  },
+  {
+    "nombre": "Maní",
+    "humedad_min": 58,
+    "humedad_max": 88
+  },
+  {
+    "nombre": "Cilantro",
+    "humedad_min": 55,
+    "humedad_max": 84
+  },
+  {
+    "nombre": "Apio",
+    "humedad_min": 68,
+    "humedad_max": 78
+  },
+  {
+    "nombre": "Brócoli",
+    "humedad_min": 65,
+    "humedad_max": 78
+  },
+  {
+    "nombre": "Coliflor",
+    "humedad_min": 62,
+    "humedad_max": 78
+  },
+  {
+    "nombre": "Remolacha",
+    "humedad_min": 60,
+    "humedad_max": 81
+  },
+  {
+    "nombre": "Rábano",
+    "humedad_min": 60,
+    "humedad_max": 84
+  },
+  {
+    "nombre": "Cilantro",
+    "humedad_min": 61,
+    "humedad_max": 75
+  },
+  {
+    "nombre": "Perejil",
+    "humedad_min": 50,
+    "humedad_max": 87
+  },
+  {
+    "nombre": "Albahaca",
+    "humedad_min": 52,
+    "humedad_max": 78
+  },
+  {
+    "nombre": "Tomillo",
+    "humedad_min": 69,
+    "humedad_max": 90
+  },
+  {
+    "nombre": "Orégano",
+    "humedad_min": 56,
+    "humedad_max": 78
+  },
+  {
+    "nombre": "Laurel",
+    "humedad_min": 50,
+    "humedad_max": 88
+  },
+  {
+    "nombre": "Curuba",
+    "humedad_min": 60,
+    "humedad_max": 76
+  },
+  {
+    "nombre": "Chirimoya",
+    "humedad_min": 55,
+    "humedad_max": 87
+  },
+  {
+    "nombre": "Granadilla",
+    "humedad_min": 64,
+    "humedad_max": 81
+  },
+  {
+    "nombre": "Ciruelo",
+    "humedad_min": 55,
+    "humedad_max": 86
+  },
+  {
+    "nombre": "Níspero",
+    "humedad_min": 52,
+    "humedad_max": 90
+  },
+  {
+    "nombre": "Papayuela",
+    "humedad_min": 58,
+    "humedad_max": 83
+  },
+  {
+    "nombre": "Feijoa",
+    "humedad_min": 66,
+    "humedad_max": 82
+  },
+  {
+    "nombre": "Zapote",
+    "humedad_min": 50,
+    "humedad_max": 82
+  },
+  {
+    "nombre": "Tamarindo",
+    "humedad_min": 68,
+    "humedad_max": 85
+  },
+  {
+    "nombre": "Caña de azúcar",
+    "humedad_min": 56,
+    "humedad_max": 75
+  },
+  {
+    "nombre": "Palma africana",
+    "humedad_min": 52,
+    "humedad_max": 75
+  },
+  {
+    "nombre": "Palmito",
+    "humedad_min": 65,
+    "humedad_max": 90
+  },
+  {
+    "nombre": "Higo",
+    "humedad_min": 54,
+    "humedad_max": 76
+  },
+  {
+    "nombre": "Kiwi",
+    "humedad_min": 60,
+    "humedad_max": 77
+  },
+  {
+    "nombre": "Durazno",
+    "humedad_min": 61,
+    "humedad_max": 81
+  },
+  {
+    "nombre": "Manzana",
+    "humedad_min": 57,
+    "humedad_max": 88
+  },
+  {
+    "nombre": "Peral",
+    "humedad_min": 50,
+    "humedad_max": 80
+  },
+  {
+    "nombre": "Chontaduro",
+    "humedad_min": 62,
+    "humedad_max": 75
+  },
+  {
+    "nombre": "Achicoria",
+    "humedad_min": 67,
+    "humedad_max": 86
+  },
+  {
+    "nombre": "Cardamomo",
+    "humedad_min": 66,
+    "humedad_max": 80
+  },
+  {
+    "nombre": "Jengibre",
+    "humedad_min": 61,
+    "humedad_max": 85
+  },
+  {
+    "nombre": "Cúrcuma",
+    "humedad_min": 64,
+    "humedad_max": 90
+  },
+  {
+    "nombre": "Cilantro cimarrón",
+    "humedad_min": 51,
+    "humedad_max": 82
+  },
+  {
+    "nombre": "Berenjena",
+    "humedad_min": 54,
+    "humedad_max": 83
+  },
+  {
+    "nombre": "Calabaza",
+    "humedad_min": 60,
+    "humedad_max": 84
+  },
+  {
+    "nombre": "Ahuyama",
+    "humedad_min": 60,
+    "humedad_max": 81
+  },
+  {
+    "nombre": "Pepino dulce",
+    "humedad_min": 70,
+    "humedad_max": 78
+  },
+  {
+    "nombre": "Ocra",
+    "humedad_min": 54,
+    "humedad_max": 79
+  },
+  {
+    "nombre": "Arveja",
+    "humedad_min": 54,
+    "humedad_max": 75
+  },
+  {
+    "nombre": "Te",
+    "humedad_min": 66,
+    "humedad_max": 83
+  },
+  {
+    "nombre": "Cebollín",
+    "humedad_min": 69,
+    "humedad_max": 80
+  },
+  {
+    "nombre": "Hierbabuena",
+    "humedad_min": 68,
+    "humedad_max": 77
+  },
+  {
+    "nombre": "Menta",
+    "humedad_min": 59,
+    "humedad_max": 76
+  },
+  {
+    "nombre": "Stevia",
+    "humedad_min": 59,
+    "humedad_max": 84
+  },
+  {
+    "nombre": "Palo santo",
+    "humedad_min": 50,
+    "humedad_max": 81
+  },
+  {
+    "nombre": "Guasca",
+    "humedad_min": 63,
+    "humedad_max": 83
+  },
+  {
+    "nombre": "Malanga",
+    "humedad_min": 57,
+    "humedad_max": 86
+  },
+  {
+    "nombre": "Batata",
+    "humedad_min": 55,
+    "humedad_max": 90
+  },
+  {
+    "nombre": "Camote",
+    "humedad_min": 51,
+    "humedad_max": 90
+  },
+  {
+    "nombre": "Maguey",
+    "humedad_min": 57,
+    "humedad_max": 88
+  },
+  {
+    "nombre": "Taro",
+    "humedad_min": 63,
+    "humedad_max": 77
+  },
+  {
+    "nombre": "Guineo",
+    "humedad_min": 50,
+    "humedad_max": 89
+  },
+  {
+    "nombre": "Nopal",
+    "humedad_min": 68,
+    "humedad_max": 82
+  },
+  {
+    "nombre": "Chía",
+    "humedad_min": 68,
+    "humedad_max": 82
+  },
+  {
+    "nombre": "Linaza",
+    "humedad_min": 51,
+    "humedad_max": 81
+  },
+  {
+    "nombre": "Centeno",
+    "humedad_min": 61,
+    "humedad_max": 75
+  }
+]

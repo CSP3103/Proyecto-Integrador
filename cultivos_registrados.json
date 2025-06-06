@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1001,
+    "usuarioId": 1,
+    "tipo": "Banano",
+    "nombre": "Finca Los Ríos",
+    "hectareas": 5,
+    "ubicacion": "Manabí"
+  },
+  {
+    "id": 1002,
+    "usuarioId": 2,
+    "tipo": "Piña",
+    "nombre": "Terreno Ana",
+    "hectareas": 3,
+    "ubicacion": "Guayas"
+  },
+  {
+    "usuarioId": 1749181133581,
+    "tipo": "Banano",
+    "nombre": "juan",
+    "hectareas": 1,
+    "ubicacion": "colombia",
+    "fechaRegistro": "2025-06-06",
+    "id": 1749181573337
+  },
+  {
+    "usuarioId": 1,
+    "tipo": "Papa",
+    "nombre": "juan",
+    "hectareas": 1,
+    "ubicacion": "cordoba",
+    "fechaRegistro": "2025-06-06",
+    "id": 1749181948101
+  },
+  {
+    "usuarioId": 1749181985537,
+    "tipo": "Perejil",
+    "nombre": "Fereagro",
+    "hectareas": 1,
+    "ubicacion": "colombia",
+    "fechaRegistro": "2025-06-06",
+    "id": 1749182003658
+  },
+  {
+    "usuarioId": 1,
+    "tipo": "Café",
+    "nombre": "Finca tres rosales",
+    "hectareas": 20,
+    "ubicacion": "Arauca",
+    "fechaRegistro": "2025-06-06",
+    "id": 1749182490261
+  }
+]

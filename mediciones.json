@@ -1,0 +1,68 @@
+[
+  {
+    "cultivoId": 1001,
+    "fecha": "2025-06-01",
+    "humedad": 68,
+    "observacion": "Óptima"
+  },
+  {
+    "cultivoId": 1001,
+    "fecha": "2025-06-03",
+    "humedad": 90,
+    "observacion": "Exceso de humedad"
+  },
+  {
+    "cultivoId": 1002,
+    "fecha": "2025-06-02",
+    "humedad": 50,
+    "observacion": "Ideal"
+  },
+  {
+    "cultivoId": 1749181573337,
+    "fecha": "2025-06-06",
+    "humedad": 50,
+    "observacion": ""
+  },
+  {
+    "cultivoId": 1749181948101,
+    "fecha": "2025-06-06",
+    "humedad": 50,
+    "observacion": ""
+  },
+  {
+    "cultivoId": 1749182003658,
+    "fecha": "2025-06-06",
+    "humedad": 50,
+    "observacion": ""
+  },
+  {
+    "cultivoId": 1749182490261,
+    "fecha": "2025-06-06",
+    "humedad": 30,
+    "observacion": ""
+  },
+  {
+    "cultivoId": 1749181948101,
+    "fecha": "2025-06-06",
+    "humedad": 20,
+    "observacion": "Por debajo de lo ideal (62%-82%)"
+  },
+  {
+    "cultivoId": 1749181948101,
+    "fecha": "2025-06-06",
+    "humedad": 65,
+    "observacion": "Adecuado (62%-82%)"
+  },
+  {
+    "cultivoId": 1001,
+    "fecha": "2025-06-06",
+    "humedad": 50,
+    "observacion": "Por debajo de lo ideal (52%-75%)"
+  },
+  {
+    "cultivoId": 1001,
+    "fecha": "2025-06-06",
+    "humedad": 30,
+    "observacion": "Por debajo de lo ideal (52%-75%)"
+  }
+]
